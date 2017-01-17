@@ -2,8 +2,8 @@ h1 {
   font-family:"Century Gothic";
   font-size: 34px;
   text-align: center;
-  color: #5ea9ff;
-  border: 3px solid #5ea9ff;
+  color: #FFF;
+  border: 3px solid #FFF;
   border-radius: 100%;
 }
   
@@ -11,7 +11,7 @@ p {
   font-family:"Century Gothic";
   font-size: 20px;
   text-align: center;
-  color: #5ea9ff;
+  color: #FFF;
 }
  
 #intro {
