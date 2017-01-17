@@ -3,14 +3,17 @@ h1 {
   font-size: 34px;
   text-align: left;
   color: #5ea9ff;
-  
 }
   
 p {
   font-family:"Century Gothic";
   font-size: 20px;
   text-align: left;
-  color: #3066a3;
+  color: #5ea9ff;
+}
+ 
+#intro {
+  background:"https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSXrHB-yTPYOkCGW3V_edwtM0fAasA2Wc3C6Fuup-AGOhu2T8ogRw";
 }
   
   
