@@ -4,6 +4,7 @@ h1 {
   text-align: center;
   color: #5ea9ff;
   border: 3px solid #5ea9ff;
+  border-radius: 100%;
 }
   
 p {
