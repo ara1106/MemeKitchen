@@ -1,1 +1,79 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(56, 44, 37);
+  border-bottom: 1px solid #af9e7e;
+  border-top: 1px solid #af9e7e;
+}
+
+li {
+    float: left;
+  border-right: 1px solid #af9e7e;
+  border-radius: 0px;
+  padding: 0px;
+  width: 150px;
+  
+  
+}
+
+li a {
+    display: block;
+    color: #af9e7e;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+h1 {
+  font-family:"Century Gothic";
+  font-size: 34px;
+  text-align: center;
+  color: #af9e7e;
+  background: rgba(56, 44, 37, 0.7);
+  border-top: 3px solid #af9e7e;
+  border-bottom: 2px solid #af9e7e;
+  
+  border-radius: 6px;
+  width: 420px;
+  position: relative;
+  top: 16px;
+  margin: auto;
+  margin-bottom: 32px;
+  
+  
+  
+}
+  
+p {
+  font-family:"Century Gothic";
+  font-size: 20px;
+  text-align: center;
+  color: #af9e7e;
+  background: rgba(56, 44, 37, 0.7);
+  margin: 10px;
+  border: 1px solid #af9e7e;
+  border-radius: 2px
+  
+}
+ 
+#intro {
+  background-image: url("https://gamemakerstuff.files.wordpress.com/2014/12/asian-kitchen-by-1041uuu-tumblr.gif");
+  height: 500px;
+  
+  
+ 
+  
+}
+
+body {
+  margin: auto;
+}
+
 
