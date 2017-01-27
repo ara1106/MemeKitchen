@@ -1,22 +1,97 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(56, 44, 37);
+  border-bottom: 1px solid #af9e7e;
+  border-top: 1px solid #af9e7e;
+}
+
+li {
+    float: left;
+  border-right: 1px solid #af9e7e;
+  border-radius: 0px;
+  padding: 0px;
+  width: 150px;  
+}
+
+li a {
+    display: block;
+    color: #af9e7e;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+.welcome-text {
+  background: rgba(56, 44, 37, 0.85);
+  border-top: 3px solid #af9e7e;
+  border-bottom: 2px solid #af9e7e;
+  border-radius: 6px;
+  width: 420px;
+  
+  position: relative;
+  top: 100px;
+  margin: auto;
+  text-align: center;
+  
+  
+}
+
 h1 {
   font-family:"Century Gothic";
-  font-size: 34px;
+  font-size: 20px;
   text-align: center;
-  color: #FFF;
-  border: 3px solid #FFF;
-  border-radius: 100%;
+  color: #af9e7e;
+ 
+  
 }
   
 p {
   font-family:"Century Gothic";
   font-size: 20px;
   text-align: center;
-  color: #FFF;
+  color: #af9e7e;
+
 }
  
-#intro {
-  background-image: url("http://www.pixelstalk.net/wp-content/uploads/2016/06/HD-Minimalist-Picture.jpg");
+.welcome {
+  background-image: url("https://gamemakerstuff.files.wordpress.com/2014/12/asian-kitchen-by-1041uuu-tumblr.gif");
+  height: 374px;
+  
+  
 }
   
+.page {
+    background: url("http://pixelartmaker.com/art/4aa20a5b1324c0f.png");
+  height: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+    
+}
+
+.introduction {
+  background: #1f1814;
+  border-top: 2px solid #af9e7e;
+  border-bottom: 2px solid #af9e7e;
+  border-radius: 2px;
+  position: relative;
   
-  
+}
+
+body {
+  margin: auto;
+}
+
+.navigation {
+  position: fixed;
+  float: left;
+  z-index: 10000;
+  width: 100%;
+}
