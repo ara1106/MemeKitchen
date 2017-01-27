@@ -4,14 +4,16 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: rgb(56, 44, 37);
+  border-bottom: 1px solid #af9e7e;
+  border-top: 1px solid #af9e7e;
 }
 
 li {
     float: left;
-  border: 1px solid #af9e7e;
-  border-radius: 2px;
-  padding: 5px;
-  
+  border-right: 1px solid #af9e7e;
+  border-radius: 0px;
+  padding: 0px;
+  width: 150px;  
 }
 
 li a {
@@ -27,20 +29,27 @@ li a:hover {
     background-color: #111;
 }
 
+.welcome-text {
+  background: rgba(56, 44, 37, 0.85);
+  border-top: 3px solid #af9e7e;
+  border-bottom: 2px solid #af9e7e;
+  border-radius: 6px;
+  width: 420px;
+  
+  position: relative;
+  top: 100px;
+  margin: auto;
+  text-align: center;
+  
+  
+}
+
 h1 {
   font-family:"Century Gothic";
-  font-size: 34px;
+  font-size: 20px;
   text-align: center;
   color: #af9e7e;
-  background: rgba(56, 44, 37, 0.7);
-  border: 2px solid #af9e7e;
-  border-radius: 4px;
-  width: 512px;
-  position: relative;
-  top: 16px;
-  margin-left: auto;
-  margin-right: auto;
-  
+ 
   
 }
   
@@ -49,19 +58,40 @@ p {
   font-size: 20px;
   text-align: center;
   color: #af9e7e;
-  background: rgba(56, 44, 37, 0.7);
-  margin: 10px;
-  border: 1px solid #af9e7e;
-  border-radius: 2px
-  
+
 }
  
-#intro {
+.welcome {
   background-image: url("https://gamemakerstuff.files.wordpress.com/2014/12/asian-kitchen-by-1041uuu-tumblr.gif");
   height: 374px;
   
+  
+}
+  
+.page {
+    background: url("http://pixelartmaker.com/art/4aa20a5b1324c0f.png");
+  height: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+    
 }
 
+.introduction {
+  background: #1f1814;
+  border-top: 2px solid #af9e7e;
+  border-bottom: 2px solid #af9e7e;
+  border-radius: 2px;
+  position: relative;
+  
+}
 
-  
-  
+body {
+  margin: auto;
+}
+
+.navigation {
+  position: fixed;
+  float: left;
+  z-index: 10000;
+  width: 100%;
+}
